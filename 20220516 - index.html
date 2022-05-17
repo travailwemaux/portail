@@ -20,9 +20,27 @@
       <div class="container">
         <p class="subtitle">Applications publiques</p>
 
-        <div class="columns is-multiline" id="columns-selected"></div>
+        <script language="javascript">
+          for (i in data.application) {
+            for (j in data.application[i]) {
+              x = data.application[i][j];
+              console.log(x);
+            }
+          }
+        </script>
 
-        <div class="columns is-multiline" id="columns"></div>
+        <div class="cards-list">
+
+          <div class="card 1">
+            <div class="card_image">
+              <img src="https://i.redd.it/b3esnz5ra34y.jpg" />
+            </div>
+            <div class="card_title title-white">
+              <p>Card Title</p>
+            </div>
+          </div>
+
+        </div>
       </div>
     </section>
   </body>
