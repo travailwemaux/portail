@@ -1,0 +1,26 @@
+.card-content{
+    transition: 0.3s;
+}
+
+.card-content:hover {
+    transform: scale(1.2);
+    /*background: hsl(29, 100%, 52%);*/
+    /*z-index: 2;*/
+    /*box-shadow: 2px 2px 2px #000;*/
+}
+
+.icon-selected {
+    color: rgb(255, 221, 87);
+}
+
+.card-selected {
+    background-color:hsla(48, 100%, 67%, 0.233);
+}
+
+.icon { 
+    cursor: pointer; 
+}
+
+.title { 
+    cursor: pointer; 
+}
